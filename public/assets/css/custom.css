@@ -936,6 +936,10 @@ body {
     /* margin-left: 430px; */
   }
 
+  .textItemOrder1 {
+    width: 300px;
+  } 
+  
   .textItem1 {
     margin-top: 25px;
   }
@@ -946,7 +950,7 @@ body {
   }
 
   .container {
-    max-width: 100% !important;
+    max-width: none !important;
   }
 
   .tdHeader {

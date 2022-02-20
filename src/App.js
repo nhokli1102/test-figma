@@ -101,7 +101,6 @@ class App extends Component {
     const { steps, showModal, showModalStepper, showModalBids, menuBar, SidebarData } = this.state;
     return (
       <>
-
         {/* canvas */}
         <div class="offcanvas offcanvas-end mw-30" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
@@ -413,7 +412,6 @@ class App extends Component {
                       <div class="orderItem">
                         <table class="table table-borderless">
                           <tbody>
-
                             <tr>
                               <td><img class="imgOrder" src="https://icdn.dantri.com.vn/thumb_w/640/2017/1-1510967806416.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
