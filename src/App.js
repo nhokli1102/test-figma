@@ -504,7 +504,7 @@ class App extends Component {
                     <table class="table table-borderless">
                       <tbody>
                         <tr>
-                          <td class="textItemOrder"><a hred=""><u className="colorHref">Fedex</u></a></td>
+                          <td class="textItemOrder"><a href=""><u className="colorHrefTKN">Fedex</u></a></td>
                           <td class="textItemOrder">
                             <div class="iconDelete"><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9018 3.35628C11.7804 2.4776 13.2051 2.4776 14.0837 3.35628L15.1444 4.41694C16.0231 5.29561 16.0231 6.72024 15.1444 7.59892L7.35002 15.3933C7.24532 15.498 7.11197 15.5694 6.96678 15.5984L2.9893 16.3939C2.46451 16.4989 2.00182 16.0362 2.10678 15.5114L2.90227 11.5339C2.93131 11.3887 3.00268 11.2554 3.10738 11.1507L10.9018 3.35628ZM13.0231 4.41694L14.0837 5.4776C14.3766 5.77049 14.3766 6.24536 14.0837 6.53826L13.0231 7.59892L10.9018 5.4776L11.9624 4.41694C12.2553 4.12404 12.7302 4.12404 13.0231 4.41694ZM9.84109 6.53826L4.32861 12.0507L3.79828 14.7024L6.44993 14.1721L11.9624 8.65958L9.84109 6.53826Z" fill="#33383F" />
@@ -540,7 +540,7 @@ class App extends Component {
                     <table class="table table-borderless">
                       <tbody>
                         <tr>
-                          <td class="textItemOrder"><a hred=""><u className="colorHref">Fedex</u></a></td>
+                          <td class="textItemOrder"><a href=""><u className="colorHrefTKN">Fedex</u></a></td>
                           <td class="textItemOrder">
                             <div class="iconDelete"><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9018 3.35628C11.7804 2.4776 13.2051 2.4776 14.0837 3.35628L15.1444 4.41694C16.0231 5.29561 16.0231 6.72024 15.1444 7.59892L7.35002 15.3933C7.24532 15.498 7.11197 15.5694 6.96678 15.5984L2.9893 16.3939C2.46451 16.4989 2.00182 16.0362 2.10678 15.5114L2.90227 11.5339C2.93131 11.3887 3.00268 11.2554 3.10738 11.1507L10.9018 3.35628ZM13.0231 4.41694L14.0837 5.4776C14.3766 5.77049 14.3766 6.24536 14.0837 6.53826L13.0231 7.59892L10.9018 5.4776L11.9624 4.41694C12.2553 4.12404 12.7302 4.12404 13.0231 4.41694ZM9.84109 6.53826L4.32861 12.0507L3.79828 14.7024L6.44993 14.1721L11.9624 8.65958L9.84109 6.53826Z" fill="#33383F" />
@@ -576,7 +576,7 @@ class App extends Component {
                     <table class="table table-borderless">
                       <tbody>
                         <tr>
-                          <td class="textItemOrder"><a hred=""><u className="colorHref">Fedex</u></a></td>
+                          <td class="textItemOrder"><a href=""><u className="colorHrefTKN">Fedex</u></a></td>
                           <td class="textItemOrder">
                             <div class="iconDelete"><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9018 3.35628C11.7804 2.4776 13.2051 2.4776 14.0837 3.35628L15.1444 4.41694C16.0231 5.29561 16.0231 6.72024 15.1444 7.59892L7.35002 15.3933C7.24532 15.498 7.11197 15.5694 6.96678 15.5984L2.9893 16.3939C2.46451 16.4989 2.00182 16.0362 2.10678 15.5114L2.90227 11.5339C2.93131 11.3887 3.00268 11.2554 3.10738 11.1507L10.9018 3.35628ZM13.0231 4.41694L14.0837 5.4776C14.3766 5.77049 14.3766 6.24536 14.0837 6.53826L13.0231 7.59892L10.9018 5.4776L11.9624 4.41694C12.2553 4.12404 12.7302 4.12404 13.0231 4.41694ZM9.84109 6.53826L4.32861 12.0507L3.79828 14.7024L6.44993 14.1721L11.9624 8.65958L9.84109 6.53826Z" fill="#33383F" />
