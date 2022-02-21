@@ -491,6 +491,10 @@ body {
     in-bottom: 10px; */
   }
 
+  .scoll {
+    overflow: auto;
+  }
+
   .checkIconBot{
     margin-bottom: 5px;
   }
@@ -528,6 +532,10 @@ body {
   }
 
   .contaiText { 
+    margin-left: 10px;
+  }
+
+  .contaiText1 { 
     margin-left: 10px;
   }
 

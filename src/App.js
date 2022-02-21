@@ -669,10 +669,10 @@ class App extends Component {
               <h6 class="textItemOrder">TKN History</h6>
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body>
+          <Modal.Body >
             <div class="col-12">
               <div class="row gx-5">
-                <div class="col">
+                <div class="col-9">
                   <table>
                     <tbody>
                       <tr>
@@ -692,7 +692,7 @@ class App extends Component {
                           </svg>
                         </td>
                         <td>
-                          <div class="contaiText">
+                          <div class="contaiText1">
                             <b class="textTkn">Add TKN</b>
                             <svg width="14" height="14" class="checkIcon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M6.99967 13.6673C10.6816 13.6673 13.6663 10.6825 13.6663 7.00065C13.6663 5.97112 13.433 4.9961 13.0162 4.12559C12.876 3.83259 12.491 3.78552 12.2613 4.01522L7.27582 9.00065C6.75512 9.52135 5.9109 9.52135 5.3902 9.00065L3.52827 7.13872C3.26792 6.87837 3.26792 6.45626 3.52827 6.19591C3.78862 5.93556 4.21073 5.93556 4.47108 6.19591L6.33301 8.05784L11.5675 2.82708C11.7571 2.63755 11.7648 2.33059 11.5696 2.14676C10.3763 1.02278 8.7684 0.333984 6.99967 0.333984C3.31778 0.333984 0.333008 3.31875 0.333008 7.00065C0.333008 10.6825 3.31778 13.6673 6.99967 13.6673Z" fill="#007B5C" />
@@ -708,7 +708,7 @@ class App extends Component {
                     </tbody>
                   </table>
                 </div>
-                <div class="col">
+                <div class="col-3">
                   <div class="textTime"><br />Jan 15, 2022</div>
                 </div>
               </div>
@@ -719,7 +719,7 @@ class App extends Component {
 
             <div class="col-12">
               <div class="row gx-5">
-                <div class="col">
+                <div class="col-9">
                   <table>
                     <tbody>
                       <tr>
@@ -739,7 +739,7 @@ class App extends Component {
                           </svg>
                         </td>
                         <td>
-                          <div class="contaiText">
+                          <div class="contaiText1">
                             <b class="textTkn">Add TKN</b>
                             <svg width="14" height="14" class="checkIcon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M6.99967 13.6673C10.6816 13.6673 13.6663 10.6825 13.6663 7.00065C13.6663 5.97112 13.433 4.9961 13.0162 4.12559C12.876 3.83259 12.491 3.78552 12.2613 4.01522L7.27582 9.00065C6.75512 9.52135 5.9109 9.52135 5.3902 9.00065L3.52827 7.13872C3.26792 6.87837 3.26792 6.45626 3.52827 6.19591C3.78862 5.93556 4.21073 5.93556 4.47108 6.19591L6.33301 8.05784L11.5675 2.82708C11.7571 2.63755 11.7648 2.33059 11.5696 2.14676C10.3763 1.02278 8.7684 0.333984 6.99967 0.333984C3.31778 0.333984 0.333008 3.31875 0.333008 7.00065C0.333008 10.6825 3.31778 13.6673 6.99967 13.6673Z" fill="#007B5C" />
@@ -755,7 +755,7 @@ class App extends Component {
                     </tbody>
                   </table>
                 </div>
-                <div class="col">
+                <div class="col-3">
                   <div class="textTime"><br />Jan 15, 2022</div>
                 </div>
               </div>
@@ -765,7 +765,7 @@ class App extends Component {
 
             <div class="col-12">
               <div class="row gx-5">
-                <div class="col">
+                <div class="col-9">
                   <table>
                     <tbody>
                       <tr>
@@ -785,7 +785,7 @@ class App extends Component {
                           </svg>
                         </td>
                         <td>
-                          <div class="contaiText">
+                          <div class="contaiText1">
                             <b class="textTkn">Add TKN</b>
                             <svg width="14" height="14" class="checkIcon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M6.99967 13.6673C10.6816 13.6673 13.6663 10.6825 13.6663 7.00065C13.6663 5.97112 13.433 4.9961 13.0162 4.12559C12.876 3.83259 12.491 3.78552 12.2613 4.01522L7.27582 9.00065C6.75512 9.52135 5.9109 9.52135 5.3902 9.00065L3.52827 7.13872C3.26792 6.87837 3.26792 6.45626 3.52827 6.19591C3.78862 5.93556 4.21073 5.93556 4.47108 6.19591L6.33301 8.05784L11.5675 2.82708C11.7571 2.63755 11.7648 2.33059 11.5696 2.14676C10.3763 1.02278 8.7684 0.333984 6.99967 0.333984C3.31778 0.333984 0.333008 3.31875 0.333008 7.00065C0.333008 10.6825 3.31778 13.6673 6.99967 13.6673Z" fill="#007B5C" />
@@ -801,7 +801,7 @@ class App extends Component {
                     </tbody>
                   </table>
                 </div>
-                <div class="col">
+                <div class="col-3">
                   <div class="textTime"><br />Jan 15, 2022</div>
                 </div>
               </div>
@@ -811,7 +811,7 @@ class App extends Component {
 
             <div class="col-12">
               <div class="row gx-5">
-                <div class="col">
+                <div class="col-9">
                   <table>
                     <tbody>
                       <tr>
@@ -831,7 +831,7 @@ class App extends Component {
                           </svg>
                         </td>
                         <td>
-                          <div class="contaiText">
+                          <div class="contaiText1">
                             <b class="textTkn">Add TKN</b>
                             <svg width="14" height="14" class="checkIcon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M6.99967 13.6673C10.6816 13.6673 13.6663 10.6825 13.6663 7.00065C13.6663 5.97112 13.433 4.9961 13.0162 4.12559C12.876 3.83259 12.491 3.78552 12.2613 4.01522L7.27582 9.00065C6.75512 9.52135 5.9109 9.52135 5.3902 9.00065L3.52827 7.13872C3.26792 6.87837 3.26792 6.45626 3.52827 6.19591C3.78862 5.93556 4.21073 5.93556 4.47108 6.19591L6.33301 8.05784L11.5675 2.82708C11.7571 2.63755 11.7648 2.33059 11.5696 2.14676C10.3763 1.02278 8.7684 0.333984 6.99967 0.333984C3.31778 0.333984 0.333008 3.31875 0.333008 7.00065C0.333008 10.6825 3.31778 13.6673 6.99967 13.6673Z" fill="#007B5C" />
@@ -847,7 +847,7 @@ class App extends Component {
                     </tbody>
                   </table>
                 </div>
-                <div class="col">
+                <div class="col-3">
                   <div class="textTime"><br />Jan 15, 2022</div>
                 </div>
               </div>
