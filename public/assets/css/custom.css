@@ -458,8 +458,9 @@ body {
   }
 
 
-  .selectInModal { 
-    font-size: 14px;;
+  .selectInModal {
+    font-family: Inter;
+    font-size: 14px;
   }
 
   .centerTracking{
@@ -468,6 +469,7 @@ body {
   }
 
   .textTkn { 
+    font-family: Inter;
     font-size: 14px;
   }
 
@@ -487,6 +489,7 @@ body {
   }
 
   .textTime {
+    font-family: Inter;
     float: right;
     color: #6F767E;
     margin-top: 3px;
@@ -510,7 +513,8 @@ body {
 
   }
   
-  .textTknBottom { 
+  .textTknBottom {
+    font-family: Inter;
     font-size: 12px;
   }
 
@@ -767,7 +771,7 @@ body {
 
 @media only screen and (max-width: 2040px) and (min-width: 1400px) {
   .textItem1 {
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .stepper {
@@ -799,6 +803,9 @@ body {
     /* margin-left: 5px; */
   }
   
+  .colorHref{
+      font-size: 9px;
+  }
 
   .texTopBot {
     font-size: 9px;
@@ -833,6 +840,10 @@ body {
   .textTop {
     font-size: 10px;
     /* margin-left: 5px; */
+  }
+
+  .colorHref{
+    font-size: 9px;
   }
 
   .texTopBot {
@@ -911,6 +922,10 @@ body {
     font-size: 9px;
   }
 
+  .colorHref{
+    font-size: 9px;
+  }
+
   .border {
     width: 30px;
   }
@@ -956,6 +971,9 @@ body {
     font-size: 9px;
   }
 
+  .colorHref{
+    font-size: 9px;
+  }
   
   .tdHeader {
     width: 130px;
@@ -1010,6 +1028,10 @@ body {
   }
 
   .texTopBot {
+    font-size: 9px;
+  }
+
+  .colorHref{
     font-size: 9px;
   }
 }
