@@ -309,6 +309,13 @@ body {
   color: #1A1D1F;
 }
 
+.textItemOrderTKN{
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  color: #1A1D1F;
+}
+
 .textItemOrderPrice{
   font-family: Inter;
   font-style: normal;
@@ -748,6 +755,14 @@ body {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
+    font-size: 12px;
+  }
+
+  .colorHrefTKN{
+    color: blue;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
   }
 
@@ -901,17 +916,18 @@ body {
   }
 
   .textItemOrder1 {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold ;
     font-size: 12px;
   }
 
   .textItemOrder {
-    font-family: Inter;
-    font-style: normal;
     font-size: 12px;
   }
+
+  .textItemOrderTKN, .colorHrefTKN{
+    font-size: 12px;
+  }
+
+
 
   .textTop {
     font-size: 10px;
@@ -957,6 +973,9 @@ body {
     font-weight: bold ;
     font-size: 12px;
   }
+  .textItemOrderTKN, .colorHrefTKN{
+    font-size: 12px;
+  }
 
   .container {
     max-width: 100% !important;
@@ -991,6 +1010,10 @@ body {
 @media only screen and (max-width: 575px) {
   .textItemOrderPrice{
     width: 120px;
+  }
+
+  .textItemOrderTKN, .colorHrefTKN{
+    font-size: 12px;
   }
 
   .textItemOrder1 {

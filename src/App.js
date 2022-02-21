@@ -364,7 +364,7 @@ class App extends Component {
                             <tr>
                               <td><img class="imgOrder" src="https://icdn.dantri.com.vn/thumb_w/640/2017/1-1510967806416.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
-                              <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
+                              <td class="textItemOrderTKN">TKN:<u className="colorHrefTKN">23123123123</u></td>
                               <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
@@ -372,14 +372,14 @@ class App extends Component {
                               <td><img class="imgOrder" src="https://chupanhsanpham.com.vn/wp-content/uploads/2017/11/le-fruit-passion-2.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
 
-                              <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
+                              <td class="textItemOrderTKN">TKN:<u className="colorHrefTKN">23123123123</u></td>
                               <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
                             <tr>
                               <td><img class="imgOrder" src="https://otusstudio.com/wp-content/uploads/2018/09/chup-anh-san-pham-nuoc-hoa-otus-studio-9-300x300.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
-                              <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
+                              <td class="textItemOrderTKN">TKN:<u className="colorHrefTKN">23123123123</u></td>
                               <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
@@ -387,7 +387,7 @@ class App extends Component {
                               <td><img class="imgOrder" src="https://logoaz.net/wp-content/uploads/2019/02/quy-tac-chup-anh-san-pham-bo-cuc-anh.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
 
-                              <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
+                              <td class="textItemOrderTKN">TKN:<u className="colorHrefTKN">23123123123</u></td>
                               <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
