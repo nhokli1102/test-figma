@@ -22,8 +22,6 @@ body {
   width : 250px !important;
 }
 
-
-
 .sideBar {
   width: 40%;
   position: fixed;
@@ -128,6 +126,11 @@ body {
   font-family: Inter;
   font-size: 14px;
   /* margin-left: 5px; */
+}
+
+.textTopShip {
+  font-family: Inter;
+  font-size: 14px;
 }
 
 .buttonTopLeft1 {
@@ -306,6 +309,14 @@ body {
   color: #1A1D1F;
 }
 
+.textItemOrderPrice{
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  color: #1A1D1F;
+  width: 100px;
+}
+
 .textItemTop {
   font-family: Inter;
   font-style: normal;
@@ -441,7 +452,6 @@ body {
     margin-right: 10px;
   }
 
-  
   .iconAdd1{
     margin-right: 10px;
     margin-bottom: 4px;
@@ -637,8 +647,21 @@ body {
   }
   
   .headerMenu{ 
-    height: 60px;
+    height: 50px;
     margin-left: 5px;
+  }
+
+  /* .iconInvite {
+    mar
+  } */
+  .headerMenuIcon {
+    margin-left: 6px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FF9838;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   
   .iconHeaderMenu{
@@ -721,7 +744,7 @@ body {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .divBodyRight {
@@ -763,6 +786,10 @@ body {
     width: auto;
   }
 
+  .tdHeaderShip{
+    width: auto;
+  }
+
   .stepper {
     /* margin-left: 10px; */
   }
@@ -771,6 +798,7 @@ body {
     font-size: 10px;
     /* margin-left: 5px; */
   }
+  
 
   .texTopBot {
     font-size: 9px;
@@ -818,13 +846,13 @@ body {
   .tdHeader {
     width: 130px;
   }
+
+  .tdHeaderShip{
+    width: 100px;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 767px){
-  .stepper {
-    /* margin-left: 35px; */
-  }
-
   .container {
     max-width: 100% !important;
   }
@@ -890,6 +918,10 @@ body {
   .tdHeader {
     width: 130px;
   }
+
+  .tdHeaderShip{
+    width: 100px;
+  }
 }
 
 .iconMenu {
@@ -902,6 +934,13 @@ body {
 @media only screen and (max-width: 767px) and (min-width: 576px) {
   .user { 
     margin-right: 20px;
+  }
+
+  .textItemOrder1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold ;
+    font-size: 12px;
   }
 
   .container {
@@ -922,8 +961,8 @@ body {
     width: 130px;
   }
 
-  .stepper {
-    /* margin-left: 300px; */
+  .tdHeaderShip{
+    width: 100px;
   }
 
   .textItem1 {
@@ -932,13 +971,17 @@ body {
 }
 
 @media only screen and (max-width: 575px) {
-  .stepper {
-    /* margin-left: 430px; */
+  .textItemOrderPrice{
+    width: 120px;
   }
 
   .textItemOrder1 {
-    width: 300px;
-  } 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold ;
+    font-size: 12px;
+    width: 250px;
+  }
   
   .textItem1 {
     margin-top: 25px;
@@ -957,6 +1000,10 @@ body {
     width: 130px;
   }
 
+  .tdHeaderShip{
+    width: 100px;
+  }
+
   .textTop {
     font-size: 10px;
     /* margin-left: 5px; */
@@ -973,6 +1020,7 @@ body {
 
 
 @media only screen and (max-width: 954px) {
+  
   .iconMenu {
     display: block;
   }
@@ -1002,11 +1050,7 @@ body {
 }
 
 @media only screen and (min-width: 954px) {
-  .nav-menu.active {
-    display: none;
-    left: -100%;
-    transition: 350ms;
-  }
+ 
 }
 
 @media only screen and (max-width: 1005px)  {

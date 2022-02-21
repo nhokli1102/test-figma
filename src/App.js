@@ -104,17 +104,17 @@ class App extends Component {
         {/* canvas */}
         <div class="offcanvas offcanvas-end mw-30" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-
-            </h5>
+            <div class="headerMenuIcon">
+              <i class="bi bi-person-plus iconInvite"/> Invite Supplier
+            </div>
             <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
           </div>
           <div class="offcanvas-body">
             <div class="headerMenu">
               <img class="avartaAdminMenu" src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg" />
               <span class="textMenu">Admin</span>
             </div>
+            
             <div class="dropdown mt-3">
               <div className="itemMenu">
                 <div className="nav-text">
@@ -145,58 +145,7 @@ class App extends Component {
           </div>
         </div>
         {/* end */}
-        <IconContext.Provider value={{ color: '#fff' }}>
-          {/* <div className='navbar'>
-          <Link to='#' className='menu-bars'>
-            <FaIcons.FaBars onClick={showSidebar} />
-          </Link>
-        </div> */}
-          <nav className={menuBar ? 'nav-menu active' : 'nav-menu'}>
-            <ul className='nav-menu-items' >
-              <div class="topMenu">
-                {/* <button type="button" class="buttonTop">
-                  <div class="textItemOrder" ><i class="bi bi-person-plus"></i>Invite Supplier</div>
-                </button> */}
-                <i class="bi bi-person-plus iconHeaderMenu"></i>
-                <i class="bi bi-x-square iconHeaderMenuClose" onClick={() => this.setBar(false)}></i>
-              </div>
-              <div class="headerMenu">
-                <div>
-                  <table>
-                    <tr>
-                      <td>
-                        <img class="avartaAdminMenu" src="https://phunugioi.com/wp-content/uploads/2020/01/anh-avatar-supreme-dep-lam-dai-dien-facebook.jpg" />
-                      </td>
-                      <td>
-                      </td>
-                      {/* <td>
-                        <i class="bi bi-plus-lg iconMenuBar"></i>
-                      </td> */}
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="hrSpace"></div>
-              <div className="itemMenuActive">
-                <li className="nav-text">
-                  <i class="bi bi-card-list iconAdd"></i>
-                  <span>Chosse</span>
-                </li>
-              </div>
-              {SidebarData.map((item, index) => {
-                return (
-                  <div className="itemMenu">
-                    <li key={index} className={item.cName}>
-                      {item.icon}
-                      <span>{item.title}</span>
-                    </li>
-                  </div>
-                );
-              })}
-            </ul>
-          </nav>
-        </IconContext.Provider>
-
+        
         <div class="header">
           <div class="col-12 row">
             <div class="col-md-8 col-8 checkHeaderRight">
@@ -232,14 +181,14 @@ class App extends Component {
               <div class="avartaAdmin"> </div>
               <b class="user">Admin</b>
               {/* </div> */}
-              <i class="bi bi-list iconAdd iconMenu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
+              <i class="bi bi-list iconMenu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
             </div>
 
           </div>
         </div>
 
         <div class="container">
-          <div class="row g-2 col-lg-10 col-md-12 col-sm-12 col-10 offset-lg-1 offset-md-0 offset-sm-0 offset-1">
+          <div class="row g-2 col-lg-10 col-md-12 col-sm-12 col-12 offset-lg-1 offset-md-0 offset-sm-0">
             <div class="col-12">
               <div class="divBodyHeader">
                 <div class="col-12" >
@@ -360,7 +309,7 @@ class App extends Component {
 
                       </td>
                       <td>
-                        <div className="d-flex flex-column tdHeader">
+                        <div className="d-flex flex-column tdHeaderShip">
                           <div className="mx-2">
                             <span class="textTop">Shipped</span><svg width="14" height="14" class="checkIcon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M6.99967 13.6673C10.6816 13.6673 13.6663 10.6825 13.6663 7.00065C13.6663 5.97112 13.433 4.9961 13.0162 4.12559C12.876 3.83259 12.491 3.78552 12.2613 4.01522L7.27582 9.00065C6.75512 9.52135 5.9109 9.52135 5.3902 9.00065L3.52827 7.13872C3.26792 6.87837 3.26792 6.45626 3.52827 6.19591C3.78862 5.93556 4.21073 5.93556 4.47108 6.19591L6.33301 8.05784L11.5675 2.82708C11.7571 2.63755 11.7648 2.33059 11.5696 2.14676C10.3763 1.02278 8.7684 0.333984 6.99967 0.333984C3.31778 0.333984 0.333008 3.31875 0.333008 7.00065C0.333008 10.6825 3.31778 13.6673 6.99967 13.6673Z" fill="#007B5C" />
@@ -416,7 +365,7 @@ class App extends Component {
                               <td><img class="imgOrder" src="https://icdn.dantri.com.vn/thumb_w/640/2017/1-1510967806416.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
                               <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
-                              <td class="textItemOrder">$35.20x1</td>
+                              <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
                             <tr>
@@ -424,15 +373,14 @@ class App extends Component {
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
 
                               <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
-                              <td class="textItemOrder">$35.20x1</td>
+                              <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
                             <tr>
                               <td><img class="imgOrder" src="https://otusstudio.com/wp-content/uploads/2018/09/chup-anh-san-pham-nuoc-hoa-otus-studio-9-300x300.jpg" /></td>
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
-
                               <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
-                              <td class="textItemOrder">$35.20x1</td>
+                              <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
                             <tr>
@@ -440,7 +388,7 @@ class App extends Component {
                               <td><p class="textItemOrder1">Ozark Trail Sand Island Beach Wagon Cart, Outdoor and Camping, Blue, Adult<p class="textItemOrderIn">SKU: 760256796</p></p></td>
 
                               <td class="textItemOrder">TKN:<u className="colorHref">23123123123</u></td>
-                              <td class="textItemOrder">$35.20x1</td>
+                              <td class="textItemOrderPrice">$35.20 x 1</td>
                               <td class="textItemOrder">$35.20</td>
                             </tr>
 
