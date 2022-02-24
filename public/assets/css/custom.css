@@ -1854,7 +1854,6 @@ color: #33383F;
   .itemMenu {
     margin-top: 10px;
     width: 87%;
-    background-color: #007B5C;
     height: auto;
     border-radius: 5px;
   }
@@ -1868,7 +1867,6 @@ color: #33383F;
   .itemMenuActive {
     margin-top: 15px;
     width: 87%;
-    background-color: #FBBC05;
     height: auto;
     border-radius: 5px;
   }

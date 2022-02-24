@@ -113,30 +113,45 @@ class Router extends Component {
                             </div>
 
                             <div class="dropdown mt-3">
-                                <div className="itemMenu">
+                            <Link to="/">
+                            <div className="itemMenu" onClick={() => this.setButton('dashboards')} style= {buttonColor == 'dashboards' ? { backgroundColor: '#FBBC05' } : { backgroundColor: '#007B5C'}}>
                                     <div className="nav-text">
                                         <i class="bi bi-graph-down iconAdd1"></i>
                                         <span className="textMenu">Dashboards</span>
                                     </div>
                                 </div>
-                                <div className="itemMenuActive">
+                            </Link>
+                               
+
+                                <Link to="/order">
+                                <div className="itemMenuActive" onClick={() => this.setButton('order')} style= {buttonColor == 'order' ? { backgroundColor: '#FBBC05' } : { backgroundColor: '#007B5C'}}>
                                     <li className="nav-text">
                                         <i class="bi bi-cart iconAdd1"></i>
                                         <span className="textMenu">Order</span>
                                     </li>
                                 </div>
-                                <div className="itemMenu">
+                                </Link>
+                                
+
+                                <Link to="/orderItems">
+                                <div className="itemMenu" onClick={() => this.setButton('orderItems')} style= {buttonColor == 'orderItems' ? { backgroundColor: '#FBBC05' } : { backgroundColor: '#007B5C'}}>
                                     <li className="nav-text">
                                         <i class="bi bi-card-list iconAdd1"></i>
                                         <span className="textMenu">Order Items</span>
                                     </li>
                                 </div>
-                                <div className="itemMenu">
+                            </Link>
+                               
+
+                                <Link to="/stores">
+                                <div className="itemMenu" onClick={() => this.setButton('stores')} style= {buttonColor == 'stores' ? { backgroundColor: '#FBBC05' } : { backgroundColor: '#007B5C'}}>
                                     <li className="nav-text">
                                         <i class="bi bi-shop iconAdd1"></i>
                                         <span className="textMenu">Stores</span>
                                     </li>
                                 </div>
+                            </Link>
+                                
                             </div>
                         </div>
                     </div>
